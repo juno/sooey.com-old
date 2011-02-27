@@ -3,6 +3,10 @@ require 'sinatra'
 require 'slim'
 require 'sass'
 
+# Workaround to fix an issue between Sinatra 1.0 and ruby 1.9.2
+# Skipped when app is not launched directly
+enable :run if $0.eql?(__FILE__)
+
 module Sinatra::Templates
   def slim(template, options={}, locals={}); render :slim, template, options, locals; end
 end
