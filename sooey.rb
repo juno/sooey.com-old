@@ -33,6 +33,7 @@ html
   head
     title junya ogura: the official
     link(rel="stylesheet" href="/style.css" type="text/css")
+    link(rel="stylesheet" href="/facebox/facebox.css" type="text/css")
     link(rel="stylesheet" href="http://fonts.googleapis.com/css?family=Merriweather" type="text/css")
   body(class=page)== yield
 
@@ -54,7 +55,26 @@ section.bio
     | I’m a web service developer since 1997 and freelancing since 2005.
 section.favorites
   h1 Favorites
-  p Simplicity, Dvorak keyboard layout and Emacs, Lostprophets, Underoath, Radiohead, Thursday, Athlete, Hard-fi, 1984, Ubik, Japanimation and manga.
+  p
+    | Simplicity,
+    |  Dvorak keyboard layout and Emacs,
+    a(href="http://en.wikipedia.org/wiki/Lostprophets") Lostprophets
+    | , 
+    a(href="http://en.wikipedia.org/wiki/Underoath") Underoath
+    | , 
+    a(href="http://en.wikipedia.org/wiki/Radiohead") Radiohead
+    | , 
+    a(href="http://en.wikipedia.org/wiki/Thursday_(band)") Thursday
+    | , 
+    a(href="http://en.wikipedia.org/wiki/Athlete_(band)") Athlete
+    | , 
+    a(href="http://en.wikipedia.org/wiki/Hard-Fi") Hard-fi
+    | , 
+    a(href="http://en.wikipedia.org/wiki/Nineteen_Eighty-Four") 1984
+    | , 
+    a(href="http://en.wikipedia.org/wiki/Ubik") Ubik
+    | , 
+    |  Japanimation and manga.
 section.pages
   ul.clearfix
     li.journals
