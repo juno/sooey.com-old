@@ -53,9 +53,9 @@ section.bio
   p
     | I was born in Niigata, Japan on March 5, 1980. In 1985, My family moved to Tokyo and I currently reside there.
     | I’m a web service developer since 1997 and freelancing from 2005 through 2011.
-    | I co-founded
+    | I co-founded 
     a(href="http://about.qnyp.com/") qnyp
-    | in Jan 2012.
+    |  in Jan 2012.
 section.favorites
   h1 Favorites
   p
