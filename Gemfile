@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.0.0'
+ruby '2.1.2'
 
 gem 'sinatra', '1.4.3'
 gem 'sass', '3.2.12'
