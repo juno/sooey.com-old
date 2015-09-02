@@ -10,6 +10,6 @@ describe 'Sooey App' do
 
   it 'should be OK' do
     get '/'
-    last_response.should be_ok
+    expect(last_response).to be_ok
   end
 end
