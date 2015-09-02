@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 require 'sinatra'
+require 'tilt/sass'
 require 'slim'
 require 'sass'
 
